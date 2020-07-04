@@ -1,0 +1,65 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "xo",
+    "lint-fix": "xo --fix",
+    "test": "yarn run lint"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "eslint": "^7.4.0",
+    "eslint-config-xo-react": "^0.23.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "husky": "^4.2.5",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "webpack": "^4.43.0",
+    "xo": "^0.32.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run test"
+    }
+  },
+  "xo": {
+    "space": true,
+    "extends": "xo-react",
+    "env": [
+      "browser",
+      "node"
+    ],
+    "rules": {
+      "react/state-in-constructor": [
+        0
+      ],
+      "react/prop-types": [
+        0
+      ],
+      "react/static-property-placement": [
+        0
+      ],
+      "react/no-danger": [
+        0
+      ],
+      "import/no-unassigned-import": [
+        0
+      ]
+    }
+  }
+}
