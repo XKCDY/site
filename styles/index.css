@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  min-height: 100%;
+  @apply bg-gray-100;
+}
+
+body {
+  font-family: 'Mulish', 'Helvetica', sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.primary-color {
+  @apply text-gray-900
+}
+
+.secondary-background {
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+
+  .secondary-background {
+    background-color: black;
+  }
+
+  .primary-color {
+    color: white;
+  }
+}
