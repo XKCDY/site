@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 
 const Page = () => (
-  <section className="min-h-screen w-screen flex flex-col align-center">
+  <>
     <div className="m-auto text-center p-10">
       <h1 className="text-5xl font-bold primary-color">XKCDY</h1>
 
@@ -29,7 +29,7 @@ const Page = () => (
     <div className="mx-auto" style={{maxWidth: '100rem'}}>
       <img src="/screenshot.png"/>
     </div>
-  </section>
+  </>
 );
 
 export default Page;

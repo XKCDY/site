@@ -4,6 +4,7 @@ import {config} from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 import '../styles/index.css';
+import Navbar from '../components/navbar';
 
 const App = ({Component, pageProps}) => (
   <>
@@ -28,7 +29,10 @@ const App = ({Component, pageProps}) => (
       <meta property="og:image" content="https://xkcdy.com/screenshot.png"/>
     </Head>
 
-    <Component {...pageProps}/>
+    <section className="min-h-screen w-screen flex flex-col align-center">
+      <Navbar/>
+      <Component {...pageProps}/>
+    </section>
   </>
 );
 
