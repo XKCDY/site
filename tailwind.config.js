@@ -1,5 +1,6 @@
 module.exports = {
   purge: [
-    './pages/**/*.js'
+    './pages/**/*.js',
+    './components/**/*.js'
   ]
 };
