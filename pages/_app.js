@@ -20,6 +20,12 @@ const App = ({Component, pageProps}) => (
       <meta name="theme-color" content="#ffffff"/>
 
       <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,700&display=swap" rel="stylesheet"/>
+
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="XKCDY"/>
+      <meta property="og:description" content="A modern, open source iOS client for XKCD"/>
+      <meta property="og:url" content="https://xkcdy.com"/>
+      <meta property="og:image" content="https://xkcdy.com/screenshot.png"/>
     </Head>
 
     <Component {...pageProps}/>
