@@ -5,7 +5,8 @@ import {useRouter} from 'next/router';
 const pages = [
   {name: 'Home', path: '/'},
   {name: 'Support', path: '/support'},
-  {name: 'Privacy', path: '/privacy'}
+  {name: 'Privacy', path: '/privacy'},
+  {name: 'Terms of Use', path: '/terms'}
 ];
 
 const Navbar = () => {
