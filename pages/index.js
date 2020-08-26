@@ -13,7 +13,7 @@ const Page = () => (
       <div className="flex items-center justify-center mt-10 flex-wrap">
         <MobileStoreButton
           store="ios"
-          url="https://apps.apple.com/us/app/xkcd-open-source/id995811425"
+          url="https://apps.apple.com/us/app/xkcdy/id1520259318"
           linkProps={{title: 'Click to open App Store'}}
           className="mx-6 mb-6"
         />
