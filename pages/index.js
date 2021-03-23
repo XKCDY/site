@@ -27,7 +27,7 @@ const Page = () => (
     </div>
 
     <div className="mx-auto" style={{maxWidth: '100rem'}}>
-      <img src="/screenshot.png" alt="Screenshot" height="1080px" width="1920px"/>
+      <img src={require('../public/screenshot.png')} alt="Screenshot" height="1080px" width="1920px"/>
     </div>
   </>
 );

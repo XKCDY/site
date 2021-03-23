@@ -6,5 +6,4 @@ This is the website for [XKCDY](https://xkcdy.com). Pretty simple, not much to s
 
 - [Next.js](https://nextjs.org/) (framework)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Dokku](https://github.com/dokku/dokku) (deployment)
-- [Cloudflare](https://www.cloudflare.com/) (caching)
+- [Cloudflare Pages](https://pages.cloudflare.com/) (deployment)
