@@ -28,7 +28,7 @@ const App = ({Component, pageProps}) => (
       <meta property="og:url" content="https://xkcdy.com"/>
       <meta property="og:image" content="https://xkcdy.com/screenshot.png"/>
 
-      <script async defer data-domain="xkcdy.com" src="https://plause.maxisom.me/js/plausible.js"/>
+      <script async defer data-domain="xkcdy.com" src="https://plause.maxisom.me/js/plause.js"/>
     </Head>
 
     <section className="min-h-screen w-screen flex flex-col align-center">
