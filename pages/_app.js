@@ -28,7 +28,7 @@ const App = ({Component, pageProps}) => (
       <meta property="og:url" content="https://xkcdy.com"/>
       <meta property="og:image" content="https://xkcdy.com/screenshot.png"/>
 
-      <script async defer data-website-id="f7e48d3a-dc34-4d22-9263-951de864cc9b" src="https://um.maxisom.me/umami.js"/>
+      <script async defer data-website-id="f7e48d3a-dc34-4d22-9263-951de864cc9b" src="https://um.maxisom.me/script.js"/>
     </Head>
 
     <section className="min-h-screen w-screen flex flex-col align-center">
